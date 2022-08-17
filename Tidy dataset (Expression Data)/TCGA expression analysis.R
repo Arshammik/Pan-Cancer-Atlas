@@ -38,4 +38,18 @@ samples <- sampleID[,7:8]
 
 a <- colnames(counts)
 a <- sub('\\.', '-', a)
+a <- sub('\\.', '-', a)
+a <- sub('\\.', '-', a)
+a <- sub('\\.', '-', a)
+
 b <- data.frame(Sample.ID = a)
+
+samples <- distinct(samples, Sample.ID, .keep_all = TRUE)
+c <- merge(b, samples, by.x = "Sample.ID", by.y = "Sample.ID", sort = F)
+
+
+colnames (counts) <- c$Sample.Type
+head(counts)
+
+# Data Prepration is ready
+## Next step will be performed by DESeq2 library
