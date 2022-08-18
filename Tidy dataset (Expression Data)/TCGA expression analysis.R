@@ -59,14 +59,46 @@ dim(cn)
 library(DESeq2)
 
 gr <- factor(c$Sample.Type)
-colSums(cn)
+colSums(cn) #Through this we can demonstrates 
 colData <- data.frame(group = gr, type = "paired-end")
 cds <- DESeqDataSetFromMatrix(cn, colData, design = ~group)
 cds <- DESeq(cds)
 cnt <- log2(1+(counts(cds, normalize = T))) #getting normalized counts
 
+write.table(cnt, "~/desktop/Systematic Review/TCGA-LUAD/Results/expression(log2+1)(cnt).csv",  quote = F, col.names = T, row.names = T, sep = "\t")
+write.table(c, "~/desktop/Systematic Review/TCGA-LUAD/Results/c (tumor type and ID).csv",  quote = F, col.names = T, row.names = T, sep = "\t")
 
 
 ##
 #DEGs
-dif <- results(cds, c("groups", "Solid Tissue Normal" , "Primary Tumor"))
+dif <- results(cds, c("group", "Solid Tissue Normal" , "Primary Tumor"))
+write.table(dif, "~/desktop/Systematic Review/TCGA-LUAD/Results/dif.csv",  quote = F, col.names = T, row.names = T, sep = "\t")
+
+#checkpoint
+sorted_dif <- data.frame(results(cds, c("group", "Solid Tissue Normal" , "Primary Tumor")))
+sorted_dif$padj <- p.adjust(sorted_dif$pvalue, method = "BH")
+sorted_dif <- sorted_dif[order(sorted_dif$padj),]
+
+X  <- subset(sorted_dif, log2FoldChange > 1  & padj < 0.05)
+XPrime  <- subset(dif, log2FoldChange > 1  & padj < 0.05)
+Y  <- subset(sorted_dif, log2FoldChange < -1  & padj < 0.05)
+YPrime  <- subset(dif, log2FoldChange < -1  & padj < 0.05)
+
+dim(X); dim(XPrime); dim(Y); dim(YPrime) 
+
+write.table(dif, "dif.csv", quote = F, col.names = T, row.names = T, sep = "\t" )
+write.table(sorted_dif, "sorted_dif.csv", quote = F, col.names = T, row.names = T, sep = "\t" )
+
+write.table(subset(X), "Up regulated(sorted_dif).csv",  quote = F, col.names = T, row.names = T, sep = "\t")
+write.table(subset(XPrime), "Up regulated(dif).csv",  quote = F, col.names = T, row.names = T, sep = "\t")
+write.table(subset(Y), "Down regulated(sorted_dif).csv",  quote = F, col.names = T, row.names = T, sep = "\t")
+write.table(subset(YPrime), "Up regulated(dif).csv",  quote = F, col.names = T, row.names = T, sep = "\t")
+
+
+
+
+
+
+
+
+
