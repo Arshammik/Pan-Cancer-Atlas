@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Artboard_12">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_12" data-name="Artboard – 12" clip-path="url(#clip-Artboard_12)">
+    <g id="Icon_feather-arrow-up-circle" data-name="Icon feather-arrow-up-circle" transform="translate(5.894 5.894)">
+      <path id="Path_11" data-name="Path 11" d="M20.605,39.711A19.11,19.11,0,0,0,28.043,3,19.11,19.11,0,0,0,13.168,38.209,18.987,18.987,0,0,0,20.605,39.711Zm0-34.737A15.632,15.632,0,1,1,9.552,9.552,15.529,15.529,0,0,1,20.605,4.974Z" transform="translate(-1.5 -1.5)" fill="#0367cb"/>
+      <path id="Path_12" data-name="Path 12" d="M26.132,10.5a1.731,1.731,0,0,0-1.228.509l-5.719,5.719-5.719-5.719a1.737,1.737,0,0,0-2.456,2.456l6.947,6.947a1.737,1.737,0,0,0,2.456,0l6.947-6.947A1.737,1.737,0,0,0,26.132,10.5Z" transform="translate(-0.079 6.869)" fill="#0367cb"/>
+      <path id="Path_13" data-name="Path 13" d="M18.237,10.5A1.737,1.737,0,0,0,16.5,12.237V26.132a1.737,1.737,0,1,0,3.474,0V12.237A1.737,1.737,0,0,0,18.237,10.5Z" transform="translate(0.869 -0.079)" fill="#0367cb"/>
+    </g>
+  </g>
+</svg>

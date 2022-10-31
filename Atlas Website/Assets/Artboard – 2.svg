@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Artboard_2">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <g id="Group_91" data-name="Group 91" transform="translate(8 8)" opacity="0.69">
+      <g id="Icon_feather-save" data-name="Icon feather-save" transform="translate(0 0)">
+        <path id="Path_37" data-name="Path 37" d="M32.643,37.874H8.231A5.237,5.237,0,0,1,3,32.643V8.231A5.237,5.237,0,0,1,8.231,3H27.412a1.744,1.744,0,0,1,1.233.511l8.718,8.718a1.744,1.744,0,0,1,.511,1.233v19.18A5.237,5.237,0,0,1,32.643,37.874ZM8.231,6.487A1.746,1.746,0,0,0,6.487,8.231V32.643a1.746,1.746,0,0,0,1.744,1.744H32.643a1.746,1.746,0,0,0,1.744-1.744V14.184l-7.7-7.7Z" transform="translate(-3 -3)"/>
+        <path id="Path_38" data-name="Path 38" d="M28.181,35.437a1.744,1.744,0,0,1-1.744-1.744V21.487H12.487V33.693a1.744,1.744,0,1,1-3.487,0V19.744A1.744,1.744,0,0,1,10.744,18H28.181a1.744,1.744,0,0,1,1.744,1.744v13.95A1.744,1.744,0,0,1,28.181,35.437Z" transform="translate(-2.025 -0.563)"/>
+        <path id="Path_39" data-name="Path 39" d="M24.693,15.206H10.744A1.744,1.744,0,0,1,9,13.462V4.744a1.744,1.744,0,1,1,3.487,0v6.975H24.693a1.744,1.744,0,0,1,0,3.487Z" transform="translate(-2.025 -3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

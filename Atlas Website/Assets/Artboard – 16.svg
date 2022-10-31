@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Artboard_16">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_16" data-name="Artboard – 16" clip-path="url(#clip-Artboard_16)">
+    <path id="Path_51" data-name="Path 51" d="M0,0H17.983V17.983H0Z" transform="translate(25 7.017)" fill="#54299b" opacity="0.16"/>
+    <path id="Path_52" data-name="Path 52" d="M0,0H17.983V14.986a3,3,0,0,1-3,3H0Z" transform="translate(25 25)" fill="#54299b" opacity="0.437"/>
+    <path id="Path_53" data-name="Path 53" d="M0,0H17.983V17.983H0Z" transform="translate(7.017 7.017)" fill="#54299b" opacity="0.421"/>
+    <path id="Path_54" data-name="Path 54" d="M0,0H17.983V17.983H0Z" transform="translate(7.017 25)" fill="#54299b" opacity="0.884"/>
+    <path id="Rectangle_50" data-name="Rectangle 50" d="M4.5,1.5a3,3,0,0,0-3,3V34.467a3,3,0,0,0,3,3H34.467a3,3,0,0,0,3-3V4.5a3,3,0,0,0-3-3H4.5M4.5,0H34.467a4.5,4.5,0,0,1,4.5,4.5V34.467a4.5,4.5,0,0,1-4.5,4.5H4.5a4.5,4.5,0,0,1-4.5-4.5V4.5A4.5,4.5,0,0,1,4.5,0Z" transform="translate(5.519 5.519)" fill="#54299b"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Artboard_15">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_15" data-name="Artboard – 15" clip-path="url(#clip-Artboard_15)">
+    <g id="Group_89" data-name="Group 89" transform="translate(-4.326 2.017)">
+      <path id="Path_16" data-name="Path 16" d="M4328.431,1953.245a1.393,1.393,0,0,1-1.393-1.393v-13.338h-14.253v13.338a1.393,1.393,0,1,1-2.785,0v-16.123h19.824v16.123A1.394,1.394,0,0,1,4328.431,1953.245Z" transform="translate(-4295.724 -1912.375)" fill="#54299b"/>
+      <path id="Path_17" data-name="Path 17" d="M4335.33,1954.261a1.392,1.392,0,0,1-1.392-1.393v-21.517h-16.153v7.478a1.393,1.393,0,0,1-2.785,0v-10.263h21.724v24.3A1.393,1.393,0,0,1,4335.33,1954.261Z" transform="translate(-4292.783 -1914.083)" fill="#54299b"/>
+      <path id="Path_25" data-name="Path 25" d="M6698.355,1934.215a1.392,1.392,0,0,1-1.393-1.393V1920.3a1.393,1.393,0,0,1,2.785,0v12.525A1.392,1.392,0,0,1,6698.355,1934.215Z" transform="translate(-6665.205 -1916.946)" fill="#54299b"/>
+      <path id="Path_57" data-name="Path 57" d="M3.285,0C5.1,0,6.57,1.765,6.57,3.942S5.1,7.884,3.285,7.884,0,6.119,0,3.942,1.471,0,3.285,0Z" transform="translate(12.245 36.122)" fill="#ece5f7"/>
+      <path id="Ellipse_15_-_Outline" data-name="Ellipse 15 - Outline" d="M4.178,2.089A2.089,2.089,0,1,0,6.267,4.178,2.091,2.091,0,0,0,4.178,2.089M4.178,0A4.178,4.178,0,1,1,0,4.178,4.178,4.178,0,0,1,4.178,0Z" transform="translate(11.221 35.516)" fill="#54299b"/>
+      <path id="Path_55" data-name="Path 55" d="M3.942,0A3.942,3.942,0,1,1,0,3.942,3.942,3.942,0,0,1,3.942,0Z" transform="translate(28.013 36.122)" fill="#ece5f7"/>
+      <path id="Ellipse_16_-_Outline" data-name="Ellipse 16 - Outline" d="M4.178,2.089A2.089,2.089,0,1,0,6.267,4.178,2.091,2.091,0,0,0,4.178,2.089M4.178,0A4.178,4.178,0,1,1,0,4.178,4.178,4.178,0,0,1,4.178,0Z" transform="translate(27.934 35.516)" fill="#54299b"/>
+      <path id="Path_56" data-name="Path 56" d="M3.285,0C5.1,0,6.57,1.765,6.57,3.942S5.1,7.884,3.285,7.884,0,6.119,0,3.942,1.471,0,3.285,0Z" transform="translate(39.839 36.122)" fill="#ece5f7"/>
+      <path id="Ellipse_17_-_Outline" data-name="Ellipse 17 - Outline" d="M4.178,2.089A2.089,2.089,0,1,0,6.267,4.178,2.091,2.091,0,0,0,4.178,2.089M4.178,0A4.178,4.178,0,1,1,0,4.178,4.178,4.178,0,0,1,4.178,0Z" transform="translate(39.075 35.516)" fill="#54299b"/>
+    </g>
+  </g>
+</svg>
